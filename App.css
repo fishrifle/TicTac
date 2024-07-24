@@ -1,0 +1,50 @@
+.square {
+width: 100px;
+height: 100px;
+background-color: rgb(238, 235, 235);
+color: rgb(9, 10, 1);
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+
+
+
+}
+
+.board {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 320px;
+height: 320px;
+color: black;
+border: 3px solid black;
+
+
+
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0a7713;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #e5ec14;
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(221, 248, 19);
+}
